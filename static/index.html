@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta stuff -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ultraviolet is a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers. Unblock sites today!" />
+    <meta name="keywords" content="proxy, web proxy, ultraviolet, service workers, unblock websites, unblock chromebook, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked, Landon Orr proxy ultraviolet">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e">
+    <meta name="googlebot" content="index, follow, snippet" />
+    
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="icon" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico">
+
+    <title>Canvas</title>
+</head>
+<body>
+    <div id="modalCover" class="hidden"></div>
+
+    <div id="infoModal" class="modal hidden">
+        <div class="modalHeader"> <p>Information</p> </div>
+
+        <div class="modalBody">
+            <p>A collaboration between several developers</p>
+        </div>
+
+        <div class="modalFooter">
+            <button class="modalButton" id="settingsModalCloseButton" onclick="closeInfoModal()">Close</button>
+        </div>
+    </div>
+
+    <div id="settingsModal" class="modal hidden">
+        <div class="modalHeader"> <p>Settings</p> </div>
+
+        <div class="modalBody">
+            <p class="modalTitle">Theme</p>
+
+            <form>
+                <select id="theme" name="theme" onchange="themeSelectChange()">
+                    <option value="ultramaroon">Ultramaroon</option> 
+                    <option value="classic">Classic</option>
+                    <option value="rickMorty">Rick And Morty</option>
+                </select>
+            </form>
+            
+            <br>
+        </div>
+
+        <div class="modalFooter">
+            <button class="modalButton" onclick="enableCloak()">Cloak</button>
+            <button class="modalButton" onclick="closeSettingsModal()">Close</button>
+        </div>
+    </div>
+
+    <div class="logoWrapper">
+        <div class="icoTitle">
+            <img src="./img/logo.png" alt="Nosprox Logo" width=150 height="150">
+            <span>Project Ultramaroon</span>
+        </div>
+        
+        <input placeholder="Search the web freely" id="searchbar">
+        <br>
+        <input type="button" value="Search" onclick="search()">
+    </div>
+
+    <nav class="navbar">
+        <a onclick="openInfoModal()"> <i class="bi bi-info-circle-fill navbarIcon"></i> </a>
+        <a href="https://discord.gg/NaJqGBmAuG"> <i class="bi bi-discord navbarIcon"></i> </a>
+        <a onclick="openSettingsModal()"> <i class="bi bi-gear-fill navbarIcon"></i> </a>
+    </nav>
+
+    <script src="uv/uv.bundle.js"></script>
+    <script src="uv/uv.config.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

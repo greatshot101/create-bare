@@ -1,0 +1,13 @@
+{
+    "__version": "1",
+    "project": {
+        "name": "Ultramaroon",
+        "description": "A Websocket Server for CC:Tweaked Turtles",
+        "primary_languages": [ "node", "ts" ]
+    },
+
+    "execution": {
+        "main_file": "dist/index.js",
+        "executable": "node"
+    }
+}
