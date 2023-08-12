@@ -1,4 +1,11 @@
 This project is built ontop of Ultraviolet changes can be found in the github history.
 Ultraviolet’s license can be found in Uvlicense.txt <AGPL-3.0> (Credit to Ultraviolet) https://github.com/titaniumnetwork-dev/Ultraviolet
+All uv code is defined here
+index.js
+the uv directory in static
+package.json edited
+sw.js in static
+a bit of the index.html code in static
+index.js code in static
 
 our code is *All Rights Reserved
