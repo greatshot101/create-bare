@@ -3,7 +3,7 @@ Ultraviolet’s license can be found in Uvlicense.txt <AGPL-3.0> (Credit to Ultr
 All uv code is defined here
 index.js
 the uv directory in static
-package.json edited changed names and stuff to ultramaroon
+package.json edited changed names and stuff to Project Ultramaroon also changed keywords and descriptions to Project Ultramaroon
 sw.js in static
 a bit of the index.html code in static
 index.js code in static
