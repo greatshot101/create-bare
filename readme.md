@@ -1,4 +1,4 @@
-# Project-Ultramaroon
+![Screenshot](static/img/logo_withText.png)
 A website for accessing content blocked by your school, hiding what your searching for, and keeping your IP hidden.
 
 ### You can find a live build [here](https://ultramaroon.me/)
