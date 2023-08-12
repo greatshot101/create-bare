@@ -1,7 +1,7 @@
 # Project-Ultramaroon
 A website for accessing content blocked by your school, hiding what your searching for, and keeping your IP hidden.
 
-### You can find a live build here [Old Build](https://ultramaroon.me/proxy.html)
+### You can find a live build [here](https://ultramaroon.me/)
 
 ## Credits
 - Ultraviolet, for the inner workings of the proxy.
