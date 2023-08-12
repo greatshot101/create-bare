@@ -1,0 +1,6 @@
+Changed file points and directories
+changed index.js to also include our own js code
+changed static/index.js to use our own code
+changed static/index.html for almost a complete rewrite
+changed package.json to say project ultramaroon for things
+that should be abt it
