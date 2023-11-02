@@ -1,4 +1,4 @@
-import { createServer } from 'node:https';
+// import { createServer } from 'node:https';
 import { createServer as createHTTP } from 'node:http';
 import { createBareServer } from '@tomphttp/bare-server-node';
 import { uvPath } from '@titaniumnetwork-dev/ultraviolet';
@@ -8,13 +8,12 @@ import * as process from 'process';
 const bare = createBareServer('/bare/');
 const app = express();
 
-app.use(express.static('static'));
 app.use('/uv/', express.static('static/js/uv/'));
 const httpServer = createHTTP()
-const server = createServer({
-    key: fs.readFileSync(process.env.KEY),
-    cert: fs.readFileSync(process.env.CERT)
-});
+// const server = createServer({
+//     key: fs.readFileSync(process.env.KEY),
+//     cert: fs.readFileSync(process.env.CERT)
+// });
 
 server.on('request', (req, res) => {
     if (bare.shouldRoute(req)) {
@@ -42,6 +41,6 @@ httpServer.listen({
     port: 80,
 });
 
-server.listen({
-    port: 443,
-});
+// server.listen({
+//     port: 443,
+// });
